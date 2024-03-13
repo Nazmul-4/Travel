@@ -149,12 +149,13 @@ nav li{
     
     
     
-} 
+}  
 .description{
     display: flex;
     margin-top: 100px;
     width: 1170px;
     margin-left: 135px ;
+    margin-bottom: 100px;
 }
 .title-2{
     color: #131318;
@@ -185,7 +186,48 @@ nav li{
     font-weight: 400;
     line-height: 26px; 
 }
+.Choice{
+    text-align: center; 
+}
+.Choice p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 540px;
+    margin-left: 32%;
+}
+/* group of images styles */
+.place{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    gap: 25px;
+    display: flex;
+    margin-left: 10%;
+    
+}
+.name{
+    display: flex;
 
+}
+.place-1{
+    width: 573px;
+    height: 286;
+    border-radius: 16px;
+    gap: 25px;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+.place-2{
+    height: 300px;
+    gap: 25px;
+    margin-top: 25px;
+    display: flex;
+    margin-left: 10%;
+
+}
 
 
 
